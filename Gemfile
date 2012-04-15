@@ -23,3 +23,9 @@ gem "devise", ">= 2.1.0.rc"
 gem "simple_form"
 gem "rails-footnotes", ">= 3.7", :group => :development
 gem "will_paginate", ">= 3.0.3"
+
+gem "heroku"
+
+group :production do
+  gem 'thin'
+end
